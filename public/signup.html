@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up · 4VAGE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"><a href="index.html"><img src="logo.png" alt="4VAGE" style="height:40px;"></a></div>
+  <nav>
+    <a href="index.html">Brand</a>
+    <a href="about.html">About</a>
+    <a href="careers.html">Career</a>
+  </nav>
+</header>
+
+
+<section>
+  <h2>Create Your 4VAGE Profile</h2>
+  <form id="signup-form">
+    <div>
+      <label>Surname</label>
+      <input type="text" name="surname" required>
+    </div>
+    <div>
+      <label>First Name</label>
+      <input type="text" name="firstName" required>
+    </div>
+    <div>
+      <label>Other Names</label>
+      <input type="text" name="otherNames">
+    </div>
+    <div>
+      <label>Date of Birth</label>
+      <input type="date" name="dob" required>
+    </div>
+    <div>
+      <label>Country of Residence</label>
+      <input type="text" name="country" required>
+    </div>
+    <div>
+      <label>Height</label>
+      <input type="text" name="height" placeholder="e.g. 5'10&quot;">
+    </div>
+    <div>
+      <label>Race</label>
+      <input type="text" name="race">
+    </div>
+    <div>
+      <label>Email</label>
+      <input type="email" name="email" required>
+    </div>
+    <div>
+      <label>Phone Number</label>
+      <input type="tel" name="phone" required>
+    </div>
+    <div>
+      <label>Position Best Fit</label>
+      <select name="position" required>
+        <option value="">Select one</option>
+        <option>Actor</option>
+        <option>Story Teller</option>
+        <option>Chef</option>
+        <option>Model</option>
+        <option>Musician</option>
+        <option>Content Creator</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <button class="btn filled" type="submit">Continue</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
