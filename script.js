@@ -1,5 +1,6 @@
 // Change this to your deployed backend URL once it's live on Render
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "https://fourvage.onrender.com/api";
+
 
 const signupForm = document.getElementById("signup-form");
 if (signupForm) {
